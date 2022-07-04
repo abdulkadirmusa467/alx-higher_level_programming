@@ -38,4 +38,5 @@ class Rectangle(BaseGeometry):
         """Computes the area of the Rectangle instance.
         Overwrites the area() method from BaseGeometry.
         """
+
         return self.__width * self.__height
